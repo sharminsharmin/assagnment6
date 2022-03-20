@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Gothic&family=Mulish:wght@200;400&family=Playfair+Display&family=Poppins:ital@0;1&family=Shizuru&family=Smooch+Sans&display=swap');
+body{
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1152px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+align-items: center;
+}
+    menu ul li{
+        display: inline;
+        margin-left: 40px;
+     
+    }
+menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.bold{
+    font-weight: bold;
+}
+.virtual-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.virtual-img img{
+    width: 600px;
+    margin-top: 50px;
+}
+.virtual-paragraph{
+    color: #7D7987;
+    margin-top: 20px;
+}
+.Consult-btn{
+    width: 200.29px;
+    height: 42px;
+    background-color: #458FF6;
+    border-radius: 55px;
+    border: 1px solid transparent;
+color: white;
+margin-top: 30px;
+}
+.service-text{
+    text-align: center;
+}
+.service-texted{
+    color:#7D7987 ;
+    margin-top: 40px;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+   row-gap: 37px;
+   column-gap: 34px;
+  align-items: center;
+}
+.service-box{
+    margin-left: 90px;
+    background: #FFFFFF;
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+width: 341.25px;
+height: 235.58px;
+
+}
+.service-img img{
+    width: 90px 80px 80px 80px 80px 80px;
+}
+.service-infomation{
+line-height: 28px;
+align-items: center;
+}
+.service-infomation h3{
+    margin-top: 20px;
+}
+.service-paragraph{
+    color: #7D7987;
+    
+}
+.service-paragraph p{
+    margin-top: 10px;
+}
+.button-icon{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.learn-btn{
+    margin-top: 40px;
+    width: 200px;
+    height: 56px;
+border-radius: 55px;
+background-color: transparent;
+border: 1.4px solid #458FF6;
+color: #458FF6;
+}
+.leading-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+align-items: center;
+}
+.leading-paragraph{
+    color: #7D7987;
+    margin-top: 20px;
+}
+.leading-img img{
+    width: 600px;
+    margin-top: 50px;
+}
+.our-service{
+    margin-top: 90px;
+}
+.leading-healthcare{
+    margin-top: 90px;
+}
+.leading-btn{
+   margin-top: 30px;
+border-radius: 55px;
+background-color: transparent;
+border: 1.4px solid #458FF6;
+color: #458FF6;top: 40px;
+    width: 200px;
+    height: 56px;
+
+}
+.download-paragraph p{
+    margin-top: 30px;
+    color: #7D7987;
+}
+  .download-btn{
+    margin-top: 30px;
+    border-radius: 55px;
+    background-color: transparent;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;top: 40px;
+        width: 200px;
+        height: 56px;
+      
+  }
+.download-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-our{
+    margin-top: 90px;
+}
+
+.customer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-infomation{
+    display: flex;
+    align-items: center;
+  
+
+}
+.customer-review h2{
+text-align: center;
+margin-bottom: 93px;
+margin-top: 20px;
+}
+.customer-name{
+    margin-left: 40px;
+}
+.customer-review{
+    background: linear-gradient(208.18deg, #67C3F3 8.89%, #5A98F2 76.58%);
+border-radius: 24px;
+padding: 60px 80px;
+color: white;
+margin-bottom: 30px;
+}
+.customer-circle, .customer-text{
+    color: hsla(0, 0%, 100%, 9o%);
+}
+.arrow-nav{
+    text-align: center;
+    margin-top: 60px 0px;
+}
+.article-review{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    row-gap: 30px;
+    column-gap: 30px;
+  
+}
+.article-grid{
+    
+}
+.article-margin{
+    margin-top: 20px;
+}
+.article-paragraph p{
+margin-top: 20px;
+line-height: 25px;
+color:#7D7987 ;
+
+}
+.article{
+    margin-top: 150px;
+}
+.article-text h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.arrow-right{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.more-btn{
+    width: 266px;
+    height: 28px;
+    border: transparent;
+    background: transparent;
+    color: #4089ED;
+}
+.customer-head{
+    margin-top: 90px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns:396px auto auto auto ;
+ align-items: center;
+
+}
+.footer-title{
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+footer{
+    background: linear-gradient(208.18deg, #67C3F3 8.89%, #5A98F2 76.58%);
+    border-radius: 24px;
+    padding: 60px 80px;
+    color: white;
+  padding: 50px 90px;
+  margin-bottom: 20px;
+}
+.line-height p{
+    line-height: 30px;
+  
+}
+.line-height h3{
+margin-top: 30px;
+}
+}
+.footer-color, .footer-title{
+    color: hsla(0, 0%, 100%, 9o%);
+
+}
