@@ -49,6 +49,7 @@ menu ul li a{
     border: 1px solid transparent;
 color: white;
 margin-top: 30px;
+cursor: pointer;
 }
 .service-text{
     text-align: center;
@@ -66,7 +67,7 @@ margin-top: 30px;
   align-items: center;
 }
 .service-box{
-    margin-left: 90px;
+    padding: 30px;
     
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;                        
@@ -75,6 +76,7 @@ height: 235.58px;
 background: #FFFFFF;
 
 }
+
 .service-img img{
     width: 90px 80px 80px 80px 80px 80px;
 }
@@ -104,6 +106,7 @@ border-radius: 55px;
 background-color: transparent;
 border: 1.4px solid #458FF6;
 color: #458FF6;
+cursor: pointer;
 }
 .leading-box{
     display: flex;
@@ -133,7 +136,7 @@ border: 1.4px solid #458FF6;
 color: #458FF6;top: 40px;
     width: 200px;
     height: 56px;
-
+  cursor: pointer;
 }
 .download-paragraph p{
     margin-top: 30px;
@@ -147,7 +150,7 @@ color: #458FF6;top: 40px;
     color: #458FF6;top: 40px;
         width: 200px;
         height: 56px;
-      
+        cursor: pointer;
   }
 .download-box{
     display: flex;
@@ -243,6 +246,7 @@ color:#7D7987 ;
     margin-top: 20px;
     line-height: 25px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 footer{
     background: linear-gradient(208.18deg, #67C3F3 8.89%, #5A98F2 76.58%);
@@ -263,4 +267,7 @@ margin-top: 30px;
 .footer-color, .footer-title{
     color: hsla(0, 0%, 100%, 9o%);
 
+}
+.line-height{
+    cursor: pointer;
 }
